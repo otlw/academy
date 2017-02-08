@@ -1,0 +1,24 @@
+{
+  "name": "academy",
+  "version": "1.0.0",
+  "description": "JS scripts for interacting with assessment smart-contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node js/compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otlw/academy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otlw/academy/issues"
+  },
+  "homepage": "https://github.com/otlw/academy#readme",
+  "dependencies": {
+    "ethjs": "^0.2.4",
+    "solc": "^0.4.9",
+    "web3": "^0.18.2"
+  }
+}
